@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Light'), local('SpectralSC-Light'), url('Spectralsclight.woff2') format('woff2'), url('Spectralsclight.woff') format('woff'), url('Spectralsclight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Regular'), local('SpectralSC-Regular'), url('Spectralscregular.woff2') format('woff2'), url('Spectralscregular.woff') format('woff'), url('Spectralscregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC SemiBold'), local('SpectralSC-SemiBold'), url('Spectralscsemibold.woff2') format('woff2'), url('Spectralscsemibold.woff') format('woff'), url('Spectralscsemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Italic'), local('SpectralSC-Italic'), url('Spectralscitalic.woff2') format('woff2'), url('Spectralscitalic.woff') format('woff'), url('Spectralscitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Medium Italic'), local('SpectralSC-MediumItalic'), url('Spectralscmediumitalic.woff2') format('woff2'), url('Spectralscmediumitalic.woff') format('woff'), url('Spectralscmediumitalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC ExtraLight Italic'), local('SpectralSC-ExtraLightItalic'), url('Spectralscextralightitalic.woff2') format('woff2'), url('Spectralscextralightitalic.woff') format('woff'), url('Spectralscextralightitalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC ExtraBold Italic'), local('SpectralSC-ExtraBoldItalic'), url('Spectralscextrabolditalic.woff2') format('woff2'), url('Spectralscextrabolditalic.woff') format('woff'), url('Spectralscextrabolditalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC ExtraBold'), local('SpectralSC-ExtraBold'), url('Spectralscextrabold.woff2') format('woff2'), url('Spectralscextrabold.woff') format('woff'), url('Spectralscextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Light Italic'), local('SpectralSC-LightItalic'), url('Spectralsclightitalic.woff2') format('woff2'), url('Spectralsclightitalic.woff') format('woff'), url('Spectralsclightitalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Medium'), local('SpectralSC-Medium'), url('Spectralscmedium.woff2') format('woff2'), url('Spectralscmedium.woff') format('woff'), url('Spectralscmedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC ExtraLight'), local('SpectralSC-ExtraLight'), url('Spectralscextralight.woff2') format('woff2'), url('Spectralscextralight.woff') format('woff'), url('Spectralscextralight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Bold Italic'), local('SpectralSC-BoldItalic'), url('Spectralscbolditalic.woff2') format('woff2'), url('Spectralscbolditalic.woff') format('woff'), url('Spectralscbolditalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC SemiBold Italic'), local('SpectralSC-SemiBoldItalic'), url('Spectralscsemibolditalic.woff2') format('woff2'), url('Spectralscsemibolditalic.woff') format('woff'), url('Spectralscsemibolditalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Bold'), local('SpectralSC-Bold'), url('Spectralscbold.woff2') format('woff2'), url('Spectralscbold.woff') format('woff'), url('Spectralscbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}

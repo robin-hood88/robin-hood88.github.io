@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Как себя мотивировать</title>
+</head>
+<body>
+    <header class="header-post">
+        <div class="header-post__logo">
+            <a href="index.html"><img src="img/logo.png" alt="logo" width="130" height="83"></a>
+        </div>
+        <nav class="main-menu">
+            <ul class="main-menu__items">
+                <li class="main-menu__item"><a href="#post">Статьи</a></li>
+                <li class="main-menu__item"><a href="#aboutme">Обо мне</a></li>
+                <li class="main-menu__item"><a href="#portfolio">Портфолио</a></li>
+                <li class="main-menu__item"><a href="#contactme">Написать мне</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="post">
+        <h2>Как себя мотивировать</h2>
+        <span>Теги: путешествия, друзья</span>
+        <time datetime="2020-09-29">29.09.2020</time>
+        <p>Расскажу о биопсихологической теории личности Джеффри Грея, которая помогла мне разобраться в работе мотивационных стимулов. Узнала я о ней из книги «Воля и самоконтроль. Как гены и мозг мешают нам бороться
+            с соблазнами» Ирины Якутенко.
+        </p>
+        <p>
+        Согласно этой теории, человеческое поведение контролируют две системы: 
+        BAS (Behavior Activation System) и BIS (Behavior Inhibition System), 
+        каждая из них обусловлена генетически. Грей использовал её для понимания того, 
+        как вознаграждение или наказание связаны с беспокойством и импульсивностью. 
+        Самое интересное, что активность этих систем у людей различна. 
+        Зная, какая из них доминирует, можно понять, какие стимулы использовать для 
+        эффективной мотивации.
+        </p>
+        <figure>
+            <img src="img/estee-janssens-zni0zgb3bkQ-unsplash 1.jpg" alt="" width="997" height="463">
+            <figcaption>
+                Моё поведение регулируется больше BAS, поэтому при планировании целей я всегда использую позитивный стимул.
+            </figcaption>
+        </figure> 
+        <p>BAS (Behavior Activation System) работает на ощущение позитивных эмоций. Мотивация людей, чье поведение в основном определяется этой системой, направлена на получение вознаграждения. Они стремятся получить одобрение и награду
+            за свои действия. Такие люди более мотивированы в учебе и развитии разных навыков. Однако носители активной BAS склонны к импульсивности и желанию немедленного вознаграждения, что может мешать долгосрочной работе.
+            <br>BIS (Behavior Inhibition System) ответственна за избегающее поведение. Люди с этой активной системой мотивируются стремлением избежать проблем. Они более чувствительны к наказанию и новому опыту, а также стремятся избежать ситуаций, когда чувствуют, что могут потерпеть неудачу.
+        </p>
+        <p>Определив, к какому типу относится поведение, вы узнаете, 
+            какие стимулы использовать для достижения поставленной цели. 
+            Например, я решила выучить английский — само изучение не является целью, поэтому нужно правильно
+            её сформулировать. Если моё поведение регулируется BAS, 
+            мне нужно выбрать своей конечной целью какую-то награду: например, если я выучу 
+            английский, то смогу смотреть фильмы в оригинале. 
+            Если же я склонна к BIS поведению, целью нужно выбрать 
+            избежание проблем: если я заговорю на английском, то не 
+            потеряюсь в новой стране. И это можно использовать в различных сферах жизни.
+        </p>
+        <div class="news-stats">
+            <button class="news-stats__like" type="button"><span class="likes-number">16</span></button>
+            <div class="news-stats__social">
+                <a href="#"><img src="img/twitter (1) 1.png" alt="twitter" width="50" height="50"></a>
+                <a href="#"><img src="img/facebook (1) 1.png" alt="fcb" width="50" height="50"></a>
+                <a href="#"><img src="img/vk 1.png" alt="wk" width="50" height="50"></a>
+            </div>
+          </div>
+        <a class="post__all" href="#">Ко всем статьям</a>  
+    </article>
+    <section class="comments">
+        <ul class="comments__list">
+            <li class="comments__item">
+                <p class="comments__user"><img src="img/Rectangle 24.jpg" alt=""><b>Иван Петров</b></p>
+                <p class="comments__text">Отличная статья! Спасибо.</p>
+            </li>
+            <li class="comments__item">
+                <p class="comments__user"><img src="img/Rectangle 25.jpg" alt=""><b>Ксения Ксения</b></p>
+                <p class="comments__text">Отличный текст, добавила в закладки.</p>
+            </li>
+            <li class="comments__item">
+                <p class="comments__user"><img src="img/Rectangle 26.jpg" alt=""><b>Иван Иванов</b></p>
+                <p class="comments__text">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
+            </li>
+        </ul>
+        <form class="comments__form" action="" method="POST">
+            <h3 class="comments__title">Оставить комментарий</h3>
+            <div class="textarea">
+                <textarea class="comments__textarea" name="comments__textarea" minlength="10" maxlength="200" required placeholder="Написать комментарий..."></textarea>
+            </div>
+            <input type="text" placeholder="Имя"><br>
+            <input type="email" placeholder="Почта"><br>
+            <input class="btn btn-submit" type="submit" placeholder="Отправить">
+        </form>
+    </section>
+    <footer class="page-footer">
+        <ul class="page-footer__social social-items">
+            <li class="social__item"><a href="">ВК</a></li>
+            <li class="social__item"><a href="">Телеграм</a></li>
+            <li class="social__item"><a href="">Инстаграм</a></li>
+            <li class="social__item"><a href="">Твиттер</a></li>
+        </ul>
+    </footer>
+    </body>
+    </html>

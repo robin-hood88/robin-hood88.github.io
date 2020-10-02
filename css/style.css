@@ -1,0 +1,703 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0; 
+  }
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+  }
+  
+  :focus, :active {
+    outline: none; 
+ }
+  button {
+    cursor: pointer; 
+  }
+  
+  a, a:visited {
+    text-decoration: none;
+    color: inherit; 
+  }
+  
+  a:hover {
+    text-decoration: none; 
+  }
+  
+  ul li {
+    list-style: none; 
+  }
+
+  /*Обнуление_end*/
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), url('..//src/fonts/opensans/opensans.woff2') format('woff2'), url('..//src/fonts/opensans/opensans.woff') format('woff'), url('..//src/fonts/opensans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url('..//src/fonts/opensans/opensansitalic.woff2') format('woff2'), url('..//src/fonts/opensans/opensansitalic.woff') format('woff'), url('..//src/fonts/opensans/opensansitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('..//src/fonts/opensans/opensansbold.woff2') format('woff2'), url('..//src/fonts/opensans/opensansbold.woff') format('woff'), url('..//src/fonts/opensans/opensansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spectral SC';
+    src: local('Spectral SC Bold'), local('SpectralSC-Bold'), url('..//src/fonts/spectralsc/Spectralscbold.woff2') format('woff2'), url('..//src/fonts/spectralsc/Spectralscbold.woff') format('woff'), url('..//src/fonts/spectralsc/Spectralscbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body  {
+    max-width: 1440px;
+    margin: auto;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+.container {
+    max-width: 1199px;
+    margin: auto;
+}
+
+h2 {   
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 55px;
+    color: #2E2F22;
+}
+
+h3 {    
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2F22;
+}
+
+span, time {
+    color: rgba(46, 47, 34, 0.7);
+}
+
+/*Стили для page-header*/
+
+.page-header {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 581px;
+    background: url("..//img/bc.jpg");
+}
+
+.header-post {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    min-height: 581px;
+    background: url("..//img/Главный.jpg");
+}
+
+
+.main-menu {
+    width: 609px;
+    margin-top: 33px;
+}
+
+.main-menu__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/*Стили для page-posts*/
+
+.posts__header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    margin-bottom: 45px;
+}
+
+.posts__header select {
+    width: 203px;
+    padding: 12px 20px; 
+    border-radius: 10px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+    appearance: none;
+    background: url(../img/Polygon\ 1.png) #D7D1C9 no-repeat calc(100% - 19px) 50%; 
+   }
+
+.featured-posts__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.featured-posts__item {
+    max-width: 387px;
+}
+
+.featured-posts__items h3 {
+    margin-bottom: 8px;
+}
+
+.featured-posts__items p {
+    margin-bottom: 12px;
+}
+
+.featured-posts__items p {
+    margin-bottom: 12px;
+}
+
+.featured-posts__items time {
+    float: right;
+}
+
+.featured-posts__big-item:nth-of-type(4) { 
+    margin-top: 62px;
+    padding-top: 359px;
+    padding-bottom: 61px;
+    padding-left: 82px;
+    padding-right: 79px;
+    max-width: 590px;
+    min-height: 552px;
+    background: url("..//img/image\ 4.jpg") no-repeat;
+    border-radius: 10px
+}
+
+.featured-posts__big-item:nth-of-type(5) {
+    margin-top: 62px;
+    padding-top: 359px;
+    padding-bottom: 61px;
+    padding-left: 82px;
+    padding-right: 79px;
+    max-width: 590px;
+    min-height: 552px;
+    background: url("..//img/image\ 5.jpg") no-repeat;
+    border-radius: 10px
+}
+
+.featured-posts__big-item h3,
+.featured-posts__big-item h3 { 
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.featured-posts__big-item p,
+.featured-posts__big-item p { 
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.featured-posts__big-item span,
+.featured-posts__big-item time { 
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+.featured-posts__item img {
+    border-radius: 10px;
+    margin-bottom: 27px;
+}
+
+.btn {
+    display: block;
+    border: 1px solid #202117;
+    border-radius: 10px;
+    font-family: inherit;
+    color: inherit;
+    line-height: inherit;
+    width: 224px;
+    padding: 12px 0;
+    margin: auto;
+    margin-top: 104px;
+    text-align: center;
+}
+.featured-posts > a:hover,
+.btn:hover {
+    opacity: .5;
+}
+
+/*Стили для about-me*/
+
+.about-me h2 {
+    margin-top: 85px;
+    margin-bottom: 49px;
+    text-align: center;
+}
+
+.about-me__content {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.about-me__user-img {
+    line-height: 0;
+}
+
+.about-me img {
+    border-radius: 10px;
+}
+
+.about-me__text {
+    max-width: 497px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me__text p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-me__text blockquote {
+    border-left: 3px solid #D7D1C9;
+    width: 573px;
+    padding-left: 20px;
+    margin-top: 70px;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+    color: #2E2F22;
+} 
+
+/*Стили для "portfolio*/
+
+.portfolio h2 {
+    margin-top: 85px;
+    margin-bottom: 49px;
+    text-align: center;
+}
+
+.portfolio__cards {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.portfolio__card {
+    position: relative;
+    padding: 0 15px;
+    max-width: 387px;
+    min-height: 525px;
+}
+
+.portfolio__card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.portfolio__title {
+    margin-top: 140px;
+    margin-bottom: 44px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.portfolio__subtitle {
+    margin-bottom: 17px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.portfolio__text {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.portfolio__card:not(:first-child):not(:last-child),
+.portfolio__card:not(:first-child):not(:last-child) h3{
+    color: #FFFFFF;
+}
+
+/*Стили для "contact-me табличная верстка, разметка закоментирована*/ 
+/*
+.contact-me__title {
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 85px;
+}
+
+.contact-me table {
+    width: 837px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: auto;
+    border-spacing: 15px;
+}
+
+.contact-me__form-send {
+    margin: auto;
+    max-width: 1000px;
+    min-height: 670px;
+    margin-bottom: 41px;
+    background: url("..//img/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.jpg") no-repeat;
+}
+
+.contact-me__form-send label {
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2E2F22;
+}
+
+.contact-me__form-send input,
+.contact-me__form-send textarea {
+    width: 100%;
+    padding: 20px 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;    
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    border-radius: 10px;
+}
+
+.contact-me__form-send textarea {
+    min-height: 293px;
+    resize: none;
+}
+
+.btn.btn-submit {
+    cursor: pointer;
+    margin-top: 0;
+    padding: 12px 0;
+    width: 224px;
+    background-color: transparent;
+}
+
+*/
+
+/*Стили для "contact-me немного адаптива для формы:)*/ 
+
+.contact-me__title {
+    text-align: center;
+    margin-bottom: 16px;
+    margin-top: 85px;
+}
+
+
+.contact-me__form-send {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 670px;
+    margin-bottom: 41px;
+    padding-top: 86px;
+    padding-left: 81px;
+    padding-right: 85px;
+    background: url("..//img/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.jpg") no-repeat;
+}
+
+.contact-me__form-send__name,
+.contact-me__form-send__email,
+.contact-me__form-send__username,
+.contact-me__form-send__useremail {
+    width: 407px;
+}
+
+.contact-me__form-send__name,
+.contact-me__form-send__email {
+    margin-bottom: 12px;
+}
+
+.contact-me__form-send__username,
+.contact-me__form-send__useremail {
+    margin-bottom: 20px;
+}
+
+.contact-me__form-send__textarea, textarea {
+    width: 837px;
+    margin-bottom: 20px;
+}
+
+.contact-me__form-send__email,
+.contact-me__form-send__useremail {
+    margin-left: 20px;
+}
+    
+
+.contact-me__form-send label {
+    height: 28px;
+    font-family: Spectral SC;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2E2F22;
+}
+
+.contact-me__form-send input,
+.contact-me__form-send textarea {
+    height: 63px;
+    padding: 20px 20px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;    
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #202117;
+    border-radius: 10px;
+}
+
+.contact-me__form-send textarea {
+    min-height: 293px;
+    resize: none;
+}
+
+.btn.btn-submit {
+    cursor: pointer;
+    height: 46px;
+    margin-top: 0;
+    padding: 12px 0;
+    width: 224px;
+    background-color: transparent;
+}
+
+/*Стили для "page-footer*/ 
+
+.page-footer {
+    background-color: #D7D1C9;
+}
+
+.page-footer__social {
+    width: 631px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 91px;
+}
+
+/*Стили для "post*/
+
+.post {
+    max-width: 998px;
+    margin: auto;
+}
+
+.post h2 {
+    margin-top: 85px;
+}
+
+.post span {
+    margin-right: 18px;
+}
+
+.post p {
+    margin-bottom: 1em;
+}
+
+.post p:first-of-type {
+    margin-top: 50px;
+}
+
+figure {
+    margin: 40px 0;
+}
+
+figcaption {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #2E2F22;
+}
+
+.news-stats {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.news-stats__like {
+    width: 95px;
+    height: 50px;
+    padding-top: 27px;
+    background: url(..//img/like\ 1.png) no-repeat;
+}
+
+
+.news-stats__social a {
+    margin-right: 32px;
+}
+
+.news-stats span {
+    margin-left: 55px;
+    margin-top: 15px;
+    vertical-align: bottom;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.post__all {
+    margin-bottom: 45px;
+    position: relative;
+    display: inline-block;;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: #2E2F22;  
+}
+
+.post__all::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 62px;
+    top: 50%;
+    left: calc(100% + 26px);
+    border: 1px solid #2E2F22;
+}
+
+.post__all::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 62px;
+    left: calc(100% + 79px);
+    width: 10px;
+    top: calc(50% - 4px);
+    height: 10px;
+    border: 2px solid #2E2F22;
+    border-left: transparent;
+    border-bottom: transparent;
+    transform: rotate(45deg);
+}
+
+.post__all:hover  {
+    opacity: 0.5;
+}
+
+/*Стили для "comments*/
+
+.comments__list {
+    padding-left: 100px;
+    padding-top: 45px;
+    padding-bottom: 49px;
+    max-width: 793px;
+    margin: auto;
+    margin-bottom: 77px;
+    background: #ECE1E1;
+    border-radius: 10px;  
+}
+
+.comments__item {
+    margin-bottom: 25px;
+}
+
+.comments__list img {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.comments__text {
+    margin-top: 15px;
+}
+
+.comments__form {
+    max-width: 695px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+
+.comments__title {
+    margin-bottom: 70px;
+}
+
+.comments__form input {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    border-bottom: 1px solid #2E2F22;
+    padding-bottom: 15px;
+}
+
+.comments__form input::placeholder,
+.comments__form textarea::placeholder {
+    color: #2E2F22;
+}
+
+.comments__form input[type="email"] {
+    margin-bottom: 53px;
+    margin-top: 35px;
+}
+
+.comments__form .btn {
+    margin: initial;
+}
+
+.comments__textarea {
+    float: right;
+    padding-top: 18px;
+    padding-left: 20px;
+    resize: none;
+    max-width: 406px;
+    min-height: 208px;  
+    border: 1px solid #2E2F22;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
