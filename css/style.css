@@ -701,3 +701,30 @@ figcaption {
     font-size: 16px;
     line-height: 22px;
 }
+
+/*Стили для JS*/
+
+.featured-posts__item.highlight {
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    border: 6px solid;
+  }
+
+  .featured-posts__big-item.highlight {
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    border: 6px solid;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .warning {
+    color: red;
+  }
+
