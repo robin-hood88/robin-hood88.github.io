@@ -25,47 +25,47 @@
             <div class="posts__header">
                 <h2 id="post">Все статьи</h2>
                 <form action="" method="POST">
-                    <select name="posts-name">
-                        <option>Выбрать тему</option>
-                        <option>Город</option>
-                        <option>Книги</option>
-                        <option>Путешествия</option>
-                        <option>Рецепты</option>
-                        <option>Фотографии</option>
+                    <select class="filter" name="posts-name">
+                        <option value="all">Выбрать тему</option>
+                        <option value="city">Город</option>
+                        <option value="book">Книги</option>
+                        <option value="travel">Путешествия</option>
+                        <option value="recipes">Рецепты</option>
+                        <option value="photo">Фотографии</option>
                       </select>
                 </form>
             </div>
             <article class="featured-posts">
                 <ul class="featured-posts__items">
-                    <li class="featured-posts__item">
+                    <li class="featured-posts__item" data-category="travel">
                         <img src="img/image 1.jpg" alt="">
                         <h3><a href="how-to-motivate-yourself.html">Путешествие в Берлин в августе</a></h3>
                         <p>Летний месяц я провела в столице Германии вместе с друзьями. И вот как это было!</p>
                         <span>Теги: путешествия</span>
                         <time datetime="2020-09-29">29.09.2020</time>
                     </li>
-                    <li class="featured-posts__item">
+                    <li class="featured-posts__item" data-category="city">
                         <img src="img/image 2.jpg" alt="">
-                        <h3><a href="how-to-motivate-yourself.html">Где выпить колдбрю в Москве</a></h3>
+                        <h3><a href="how-to-motivate-yourself.html" >Где выпить колдбрю в Москве</a></h3>
                         <p>Собрала для вас список любимых кофеен,<br>где подают лучший летний напиток.</p>
                         <span>Теги: город</span>
                         <time datetime="24.07.2020">24.07.2020</time>
                     </li>
-                    <li class="featured-posts__item">
+                    <li class="featured-posts__item" data-category="book">
                         <img src="img/image 3.jpg" alt="">
-                        <h3><a href="how-to-motivate-yourself.html">Прочитано: книжные рекомендации</a></h3>
+                        <h3><a href="how-to-motivate-yourself.html" >Прочитано: книжные рекомендации</a></h3>
                         <p>Рассказываю о прочитанных за последнее время книгах: фавориты и провалы.</p>
                         <span>Теги: книги</span>
                         <time datetime="15.07.2020">15.07.2020</time>
                     </li>
-                    <li class="featured-posts__big-item">
-                        <h3><a href="how-to-motivate-yourself.html">Снимки на плёнку</a></h3>
+                    <li class="featured-posts__big-item" data-category="photo">
+                        <h3><a href="how-to-motivate-yourself.html" >Снимки на плёнку</a></h3>
                         <p>Поделилась с вами весенними фотографиями, <br>и секретами удачных снимков.</p>
                         <span>Теги: фотографии</span>
                         <time datetime="29.06.2020">29.06.2020</time>
                     </li>
-                    <li class="featured-posts__big-item">
-                        <h3><a href="how-to-motivate-yourself.html">Домашний чизкейк</a></h3>
+                    <li class="featured-posts__big-item" data-category="recipes">
+                        <h3><a href="how-to-motivate-yourself.html" >Домашний чизкейк</a></h3>
                         <p>Что может быть лучше чизкейка с сезонными ягодами? Только домашний чизкейк!</p>
                         <span>Теги: рецепты</span>
                         <time datetime="24.06.2020">24.06.2020</time>
@@ -168,8 +168,8 @@
                         <input class="contact-me__form-send__username" id="user-field-id" type="text" name="username" placeholder="Иван Иванов" required>
                         <input class="contact-me__form-send__useremail" id="user-field-email" type="email" name="useremail" placeholder="google@gmail.com" required>
                         <label class="contact-me__form-send__textarea" for="textarea">Сообщение</label>
-                <textarea id="textarea" name="textarea" minlength="10" maxlength="200" placeholder="Напишите здесь ваше сообщение." required></textarea>              
-                <input class="btn btn-submit" type="submit" placeholder="Отправить">
+                <textarea id="textarea" name="textarea" minlength="10" placeholder="Напишите здесь ваше сообщение." required></textarea>              
+                <input class="btn btn-submit" type="submit" placeholder="Отправить" >
             </form>
         </section>
     </main>
@@ -181,5 +181,6 @@
             <li class="social__item"><a href="">Твиттер</a></li>
         </ul>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
