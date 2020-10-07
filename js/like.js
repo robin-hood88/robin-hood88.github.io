@@ -4,6 +4,8 @@ let comments = document.querySelector('.comments__list');
 let commentsTextarea = document.querySelector('.comments__textarea');
 let text = document.getElementById('text');
 let btn = document.querySelector('.btn-submit');
+let form = document.querySelector('.comments__form');
+
 
 
 likeBtn.addEventListener('click', function() {
@@ -25,7 +27,7 @@ likeBtn.addEventListener('click', function() {
     let userName = document.createElement('p');
     let img = document.createElement('img');
         img.src='img/userAvatar.jpg';
-        userName.appendChild(img);
+        userName.appendChild(img); 
     let userB = document.createElement('b');
         userB.textContent = text.value;
         userName.appendChild(userB);
@@ -37,6 +39,21 @@ likeBtn.addEventListener('click', function() {
         commentsItem.appendChild(userText);
         comments.appendChild(commentsItem);
   }); 
+
+
+  commentsTextarea.oninput = function () {
+    if (commentsTextarea.value.length < 10 || commentsTextarea.value.length > 200) {
+      commentsTextarea.style.color = 'red';
+      btn.disabled = true;
+      btn.style.cursor = 'not-allowed';
+      btn.style.opacity = .5;
+    } else {
+      commentsTextarea.style.color = '';
+      btn.disabled = false;
+      btn.style.cursor = 'pointer';
+      btn.style.opacity = 1;
+    }
+};
 
  
 
