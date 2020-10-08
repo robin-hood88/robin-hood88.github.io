@@ -33,6 +33,19 @@
 
   /*Обнуление_end*/
 
+   /* @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: block;
+    src: url("../src/fonts/fontawesome-free-5.15.1-web/webfonts/fa-brands-400.eot");
+    src: url("..src/fonts/fontawesome-free-5.15.1-web/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("..src/fonts/fontawesome-free-5.15.1-web/webfonts/fa-regular-400.woff2") format("woff2"), url("..src/fonts/fontawesome-free-5.15.1-web/webfonts/fa-regular-400.woff") format("woff"), url("..src/fonts/fontawesome-free-5.15.1-web/webfonts/fa-regular-400.ttf") format("truetype"), url("..src/fonts/fontawesome-free-5.15.1-web/webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  
+  .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+ }*/
+
 @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans'), local('OpenSans'), url('..//src/fonts/opensans/opensans.woff2') format('woff2'), url('..//src/fonts/opensans/opensans.woff') format('woff'), url('..//src/fonts/opensans/opensans.ttf') format('truetype');
@@ -176,7 +189,7 @@ span, time {
     float: right;
 }
 
-.featured-posts__big-item:nth-of-type(4) { 
+.featured-posts__item_big:nth-of-type(4) { 
     margin-top: 62px;
     padding-top: 359px;
     padding-bottom: 61px;
@@ -188,7 +201,7 @@ span, time {
     border-radius: 10px
 }
 
-.featured-posts__big-item:nth-of-type(5) {
+.featured-posts__item_big:nth-of-type(5) {
     margin-top: 62px;
     padding-top: 359px;
     padding-bottom: 61px;
@@ -200,27 +213,27 @@ span, time {
     border-radius: 10px
 }
 
-.featured-posts__big-item h3,
-.featured-posts__big-item h3 { 
+.featured-posts__item_big h3,
+.featured-posts__item_big h3 { 
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
 }
 
-.featured-posts__big-item p,
-.featured-posts__big-item p { 
+.featured-posts__item_big p,
+.featured-posts__item_big p { 
     font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;
 }
 
-.featured-posts__big-item span,
-.featured-posts__big-item time { 
+.featured-posts__item_big span,
+.featured-posts__item_big time { 
     color: rgba(255, 255, 255, 0.7);
 }
 
 
-.featured-posts__item img {
+.featured-posts__item_big img {
     border-radius: 10px;
     margin-bottom: 27px;
 }
@@ -728,3 +741,5 @@ figcaption {
     color: red;
   }
 
+
+    
