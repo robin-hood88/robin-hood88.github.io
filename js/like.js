@@ -38,6 +38,8 @@ likeBtn.addEventListener('click', function() {
         commentsItem.appendChild(userName);
         commentsItem.appendChild(userText);
         comments.appendChild(commentsItem);
+        text.value = '';
+        commentsTextarea.value = '';
   }); 
 
 
