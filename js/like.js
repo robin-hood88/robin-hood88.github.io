@@ -20,7 +20,7 @@ likeBtn.addEventListener('click', function() {
     }
   }); 
 
-  btn.addEventListener('click', function (evt) {
+  form.addEventListener('submit', function (evt) {
         evt.preventDefault();
     let commentsItem = document.createElement('li');
         commentsItem.classList.add('comments__item');
