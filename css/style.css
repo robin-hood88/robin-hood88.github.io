@@ -574,9 +574,7 @@ figcaption {
 }
 
 .news-stats__like {
-    width: 95px;
-    height: 50px;
-    padding-top: 27px;
+    padding-top: 22px;
     background: url(..//img/like\ 1.png) no-repeat;
 }
 
@@ -587,13 +585,10 @@ figcaption {
 
 .news-stats span {
     margin-left: 55px;
-    margin-top: 15px;
-    vertical-align: bottom;
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 26px;
 }
 
 .post__all {
