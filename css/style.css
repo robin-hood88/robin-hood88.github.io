@@ -11,8 +11,8 @@
     box-sizing: border-box; 
   }
   
-  :focus, :active {
-    outline: none; 
+  :focus {
+    outline: -webkit-focus-ring-color auto 1px; 
  }
   button {
     cursor: pointer; 
