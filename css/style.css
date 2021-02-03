@@ -120,7 +120,7 @@ span, time {
     align-content: flex-start;
     flex-wrap: wrap;
     min-height: 581px;
-    background: url("..//img/bc.jpg");
+    background: url("..//img/bc.webp");
 }
 
 .header-post {
@@ -129,7 +129,7 @@ span, time {
     align-content: flex-start;
     flex-wrap: wrap;
     min-height: 581px;
-    background: url("..//img/Главный.jpg");
+    background: url("..//img/Главный.webp");
 }
 
 
@@ -160,7 +160,7 @@ span, time {
   -moz-appearance: none;
   -webkit-appearance: none;
     appearance: none;
-    background: url(../img/Polygon\ 1.png) #D7D1C9 no-repeat calc(100% - 19px) 50%; 
+    background: url(../img/Polygon\ 1.webp) #D7D1C9 no-repeat calc(100% - 19px) 50%; 
    }
 
 .featured-posts__items {
@@ -197,7 +197,7 @@ span, time {
     padding-right: 79px;
     max-width: 590px;
     min-height: 552px;
-    background: url("..//img/image\ 4.jpg") no-repeat;
+    background: url("..//img/image\ 4.webp") no-repeat;
     border-radius: 10px
 }
 
@@ -209,7 +209,7 @@ span, time {
     padding-right: 79px;
     max-width: 590px;
     min-height: 552px;
-    background: url("..//img/image\ 5.jpg") no-repeat;
+    background: url("..//img/image\ 5.webp") no-repeat;
     border-radius: 10px
 }
 
@@ -385,7 +385,7 @@ span, time {
     max-width: 1000px;
     min-height: 670px;
     margin-bottom: 41px;
-    background: url("..//img/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.jpg") no-repeat;
+    background: url("..//img/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.webp") no-repeat;
 }
 
 .contact-me__form-send label {
@@ -446,7 +446,7 @@ span, time {
     padding-top: 86px;
     padding-left: 81px;
     padding-right: 85px;
-    background: url("..//img/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.jpg") no-repeat;
+    background: url("..//img/annie-spratt--5-ZN1vzVTQ-unsplash\ 1.webp") no-repeat;
 }
 
 .contact-me__form-send__name,
